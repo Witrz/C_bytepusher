@@ -1,2 +1,4 @@
 *.exe
 ./src/main.exe
+.idea/
+/src/cmake-build-debug/*

@@ -12,3 +12,4 @@ FetchContent_MakeAvailable(raylib)
 
 add_executable(bytepusher main.c)
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
+target_include_directories(${PROJECT_NAME} PRIVATE ${raylib_SOURCE_DIR}/src)
